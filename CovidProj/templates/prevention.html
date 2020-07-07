@@ -1,0 +1,254 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="{% static 'img/covid.png' %}" type="image/icon type">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="home">
+            <img src="{% static 'img/back.png' %}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Back
+          </a>
+        </div>
+    </nav>
+    <div class="container">
+      <br><br><br>
+      <h3>Terms & their meaning.</h3><br>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Social distancing
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              ‘Social distancing’ refers to a way of creating a barrier of physical
+              distance between two or more people so that transmission of
+              infectious agent can be prevented or halted. It may also be
+              termed as physical distancing. It is a traditional public health
+              measure of separating people to curb the outbreak of infectious
+              disease, aimed to prevent person-to-person spread of disease to
+              interrupt transmission and checking community transmission.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Isolation
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              ‘Isolation’ is the separation of ill persons with contagious
+              diseases from non-infected persons to protect non-infected
+              persons. This usually occurs in hospital settings. It is particularly
+              effective in interrupting transmission if early detection is possible
+              before overt viral shedding.
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Quarantine
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Quarantine demands movement restriction of persons who are
+              presumed to have been exposed to a contagious disease but are
+              not ill, either because they did not become infected or because
+              they are still in the incubation period.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h3>Steps to prevent coronavirus disease.</h3><br>
+
+        <div class="card mb-3" style="max-width: auto;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="{% static 'img/prevention-steps.png' %}" class="card-img inline-photo show-on-scroll" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">1. Wash your hands often.</h5>
+                      &nbsp;&nbsp;Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">2. Maintain at least 1 metre (3 feet) distance between yourself and others.</h5>
+                      &nbsp;&nbsp;When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">3. Avoid going to crowded places.</h5>
+                      &nbsp;&nbsp;Where people come together in crowds, you are more likely to come into close contact with someone that has COIVD-19 and it is more difficult to maintain physical distance of 1 metre (3 feet).
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">4. Avoid touching eyes, nose and mouth.</h5>
+                      &nbsp;&nbsp;Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">5. Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately and wash your hands.</h5>
+                      &nbsp;&nbsp;Droplets spread virus. By following good respiratory hygiene, you protect the people around you from viruses such as cold, flu and COVID-19.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">6. Stay home and self-isolate even with minor symptoms such as cough, headache, mild fever, until you recover. Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others.</h5>
+                      &nbsp;&nbsp;Avoiding contact with others will protect them from possible COVID-19 and other viruses.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">7. If you have a fever, cough and difficulty breathing, seek medical attention, but call by telephone in advance if possible and follow the directions of your local health authority.</h5>
+                       &nbsp;&nbsp;National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.
+                    </div>
+                  </li><br>
+                  <li class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">8. Keep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities.</h5>
+                        &nbsp;&nbsp;Local and national authorities are best placed to advise on what people in your area should be doing to protect themselves.
+                    </div>
+                  </li><br>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <br>
+      <h3>Q&A?</h3><br>
+      <ul class="list-unstyled">
+        <li class="media">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">How does virus spread?</h5>
+            The virus spreads through respiratory droplets of an infected
+            person. It could directly spread through inhalation of droplets
+            when you are within a metre of a coughing patient, but more
+            often, it is by touching inanimate objects contaminated by these
+            droplets and taking our hands near our nose and mouth. This
+            essentially means that if we are at least a metre away from
+            anyone, and wash our hands frequently, it is highly unlikely that
+            we would be infected. This is the rationale behind the concept of
+            social / physical distancing. Even though the virus can survive for
+            substantial periods on inanimate objects (a day on cardboard
+            and 2-3 days on plastic and steel, under ideal conditions), it dies
+            on drying.
+          </div>
+        </li><br>
+        <li class="media">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">How does social distancing help in reversing the epidemic? </h5>
+            Even with an ignorance of who’s infectious, who's contagious,
+            and how widespread the infection actually is, social distancing
+            can crush the exponential growth phase of COVID-19 and
+            support reversing the transmission of the disease. One of the
+            main aims of social distancing is to “flatten the curve”, which
+            means delaying the spread of the virus so it reaches people more
+            slowly.
+          </div>
+        </li><br>
+        <li class="media">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Risk identification? </h5>
+            What we need to flatten is the steep mortality curve. Who are
+            those at risk of high mortality? Those over 60 years, and those
+            with diabetes, hypertension, heart disease, chronic respiratory
+            disease and obesity. This demanded cocooning (reverse
+            quarantine) the elderly and the vulnerable.<br>
+            Countries with their elderly living in institutions have witnessed a
+            veritable disaster: large numbers succumbed, unprotected by
+            cocooning; hospitals were overwhelmed.<br>
+            We have far fewer citizens above 60 than the United States and
+            Europe; flattening the mortality curve is eminently feasible and
+            culturally appropriate. The norm in urban middle class and rural
+            families is to protect old parents and vulnerable family members.
+            Flattening the mortality curve by cocooning them would have
+            resonated well with our people and found nation-wide
+            acceptance.<br>
+            “Social vaccine” stimulates society’s protective knowledge and
+            practices countering major health threats. Social mobilisation
+            subsumes public education for attitudinal and behavioural
+            changes to overcome social determinants of microbial
+            transmission. When children and adults realise that mask
+            wearing is to protect their family, none will refuse to wear one. If
+            it is only to obey orders, many flout; even feel good flouting.<br>
+            Social vaccine keeps citizens updated with authentic information
+            and convinces them that their behaviour makes a change to the
+            nation’s health and economy. For this to happen, the
+            government must do its utmost to suppress social toxins and
+            convince people about a genuine concern for their health and
+            welfare.<br>
+            Social mobilisation, our mainstay against community
+            transmission of HIV from 1986, ensured clear guidelines for
+            medical professionals about preventing hospital-related
+            transmission. Educational efforts, integral to social vaccine,
+            galvanised society to resist HIV transmission, like immunity
+            resisting progression of infection within the body.<br>
+            If social vaccine is the legacy of HIV control, the legacy of COVID
+            control ought to be more far-reaching. The convenience of
+            districts as units for colour zoning emphasises that they can be
+            more self-assertive in planning for unlocking the lockdown.
+          </div>
+        </li><br>
+        <li class="media">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Pregnant and worried about the new coronavirus? </h5>
+            The need for social distancing and self-isolation cannot be
+            overemphasized. Pregnant women should stay indoors, not
+            participate in social gatherings and postpone “baby showers”. If
+            a family member develops a cough or cold you should isolate
+            yourself for a minimum of two weeks in a separate room or until
+            he/she recovers.
+          </div>
+        </li><br>
+      </ul>
+
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="{% static 'img/covid.png' %}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Covid-19
+      </a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        <span class="navbar-text">
+          Project by, Varun S Kulkarni and Shiva Kumar. Guided by, Aparna Vastrad.
+        </span>
+      </div>
+    </nav>
+
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
